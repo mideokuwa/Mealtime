@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.banner {
+  background-color: off white;
+}
+
+body {
+  font-family: Mulish;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.collapse navbar-collapse {
+  float: right;
+  color: black;
+}
+
+.justify-content-end :hover {
+  color: black;
+}
+
+.justify-content-end {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  margin-left: 100px;
+}
+
+.nav-link {
+  color: black;
+}
+
+p {
+  margin-right: 2px;
+}
+
+.dropdown {
+  margin-top: 40px;
+  box-shadow: -5px -5px -10px #f9f9f9;
+}
+
+.dropdown-menu {
+  border: none !important;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 125%;
+  padding-top: 5px;
+}
+
+.dropdown-item:hover {
+  background-color: #fffaed !important;
+}
+
+.box {
+  width: 100%;
+  padding-top: 20%;
+}
+
+.banner h1 {
+  font-size: 66px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.banner p {
+  color: #73777b;
+  margin-left: 100px;
+  font-size: 30px;
+}
+
+.banner img {
+  display: flex;
+  float: right;
+  width: 105%;
+  height: 100%;
+}
+
+.box-search input {
+  border: 0;
+  outline: none;
+  color: #8b7d77;
+  background-color: #f9f9f9;
+}
+
+.box-search {
+  margin-top: 7%;
+}
+
+.banner-text {
+  margin-bottom: 7%;
+}
+
+.search_wrap {
+  width: 100%;
+  /* margin-left: 72px; */
+}
+
+.search_wrap .search_box {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+.search_wrap .search_box .input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.search_wrap .search_box .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+  background: black;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.search_wrap .search_box .btn :hover {
+  background: white;
+}
+
+.search_wrap .search_box .btn.btn_common .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+
+.search_wrap.search_wrap_1 .search_box .btn {
+  width: 125px;
+  height: 45px;
+  top: 8px;
+  right: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.bannerimg {
+  width: 100%;
+}
