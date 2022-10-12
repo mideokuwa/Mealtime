@@ -403,6 +403,23 @@ p {
   .brand-img {
     width: 80%;
   }
+  .testimonial-img {
+    margin-left: 0 !important;
+    width: auto !important;
+  }
+
+  .footer.box-search {
+    width: 100%;
+  }
+
+  .navbar-nav.justify-content-end.flex-grow-1.pe-3 {
+    width: 100%;
+  }
+  /* .testimonial-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  } */
 }
 
 .App.container {
@@ -432,3 +449,128 @@ p {
 .App.banner-text h1 p {
   margin-top: 30px;
 }
+
+.testimonial {
+  margin-top: 150px;
+}
+
+.testimonial h1 {
+  position: relative;
+}
+
+.testimonial-cards {
+  position: relative;
+}
+.testimonials-card-info {
+  background-color: white;
+  border-radius: 10%;
+  border: 1px solid gray;
+  padding: 5%;
+  transition: ease-in-out 0.4s;
+  margin-bottom: 6%;
+}
+.testimonials-card-info:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.testimonial-text {
+  text-align: center;
+  margin-top: 8%;
+}
+.testimonial-text span {
+  margin-right: 340px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.testimonial-name {
+  font-weight: 800;
+}
+.testimonial-img {
+  margin-left: 50%;
+  width: 50%;
+  margin-bottom: 10%;
+}
+.test.card {
+  border-radius: 25px;
+  color: black;
+  background-color: white;
+  width: 27em;
+  height: 30em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 4em 3em;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.test.card h2 {
+  display: flex;
+}
+
+.test.user-name h2 {
+  display: flex;
+  float: left;
+  margin-right: 20px;
+}
+
+.test.card p {
+  color: #8b7d77;
+  font-size: 20px;
+}
+
+.test.card p :hover {
+  color: #8b7d77;
+}
+
+.test.card :hover {
+  color: black;
+}
+
+.test.card-image {
+  float: right;
+  padding: 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: white;
+  margin-bottom: 8em;
+}
+
+.test.test.card-image.card-img img {
+  display: flex;
+  float: right;
+  margin-left: 5px;
+}
+
+.test.card-image .test.card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.footer {
+  background-color: #fffaed;
+}
+
+.footer {
+  margin-top: 300px;
+  padding: 3%;
+}
+
+.news-letter p {
+  font-size: 23px;
+}
+
+.footer.box-search {
+  width: 600px;
+}
+
+/* .footer.container.input {
+  display: flex;
+  float: left;
+} */

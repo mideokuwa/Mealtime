@@ -36,115 +36,129 @@
 
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="./Images/logo 1.png" />
           </a>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <div class="dropdown">
-                <p
-                  class="dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  type="button"
-                  id="dropdown1"
-                >
-                  <i class="fa-regular fa-user fa-fw"></i> &nbsp; Account
-                </p>
-                <ul class="dropdown-menu" aria-labelledby="dropdown1">
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="fa-solid fa-location-dot fa-fw"></i>&nbsp;
-                      Customer</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="fas fa-biking fa-fw"></i>&nbsp; Driver</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="fas fa-utensils fa-fw"></i>&nbsp; Resturants</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="fas fa-clipboard-list fa-fw"></i>&nbsp;
-                      Logistics</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="far fa-comment-alt fa-fw"></i>&nbsp; Hubs</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </li>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item" aria-current="page">
+                <div class="dropdown">
+                  <p
+                    class="dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    type="button"
+                    id="dropdown1"
+                  >
+                    <i class="fa-regular fa-user fa-fw"></i> &nbsp; Account
+                  </p>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fa-solid fa-location-dot fa-fw"></i>&nbsp;
+                        Customer</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fas fa-biking fa-fw"></i>&nbsp; Driver</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fas fa-utensils fa-fw"></i>&nbsp;
+                        Resturants</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fas fa-clipboard-list fa-fw"></i>&nbsp;
+                        Logistics</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="far fa-comment-alt fa-fw"></i>&nbsp; Hubs</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
 
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="nav-link" href="#"
-                  ><p>
-                    <i class="fa-solid fa-cart-shopping fa-fw"></i>
-                    <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                      >2</span
-                    >
-                    &nbsp; Cart
-                  </p></a
-                >
-              </div>
-            </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="nav-link" href="#"
+                    ><p>
+                      <i class="fa-solid fa-cart-shopping fa-fw"></i>
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                        >2</span
+                      >
+                      &nbsp; Cart
+                    </p></a
+                  >
+                </div>
+              </li>
 
-            <li class="nav-item">
-              <div class="dropdown">
-                <p
-                  class="dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  type="button"
-                  id="dropdown2"
-                >
-                  <i class="fa-solid fa-ellipsis fa-fw"></i> &nbsp; Menu
-                </p>
-                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="fas fa-map-marker-alt fa-fw"></i>&nbsp;
-                      Delivery locations</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="fas fa-peace fa-fw"></i>&nbsp; Community</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="fas fa-utensils fa-fw"></i>&nbsp; Add your
-                      resturant</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><i class="far fa-newspaper fa-fw"></i>&nbsp; Blogs &
-                      News</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      <i class="far fa-comment-alt fa-fw"></i>&nbsp; Contact
-                      Us</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <p
+                    class="dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    type="button"
+                    id="dropdown2"
+                  >
+                    <i class="fa-solid fa-ellipsis fa-fw"></i> &nbsp; Menu
+                  </p>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown2">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fas fa-map-marker-alt fa-fw"></i>&nbsp;
+                        Delivery locations</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fas fa-peace fa-fw"></i>&nbsp; Community</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fas fa-utensils fa-fw"></i>&nbsp; Add your
+                        resturant</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="far fa-newspaper fa-fw"></i>&nbsp; Blogs &
+                        News</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="far fa-comment-alt fa-fw"></i>&nbsp; Contact
+                        Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
@@ -416,9 +430,122 @@
           </div>
         </div>
       </div>
-      <div class="testimonial"></div>
+      <div class="testimonial">
+        <div class="menu-image">
+          <img src="./Images/menu-bg.png" alt="menu" class="menu-img" />
+        </div>
+        <div class="container">
+          <h1>Testimonials</h1>
+          <div class="testimonial-cards">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="testimonials-card-info">
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-xs-6">
+                        <h2>Malik Abdulsalam</h2>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="./Images/user3.png" class="testimonial-img" />
+                      </div>
+                    </div>
+                    <div class="testimonial-text">
+                      <span><i class="fa-solid fa-quote-left"></i></span>
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen
+                        book.
+                      </p>
+                      <p class="testimonial-name">Gwarimpa, Abuja</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonials-card-info">
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2>Samson Samuels</h2>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="./Images/user1.png" class="testimonial-img" />
+                      </div>
+                    </div>
+                    <div class="testimonial-text">
+                      <span><i class="fa-solid fa-quote-left"></i></span>
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen
+                        book.
+                      </p>
+                      <p class="testimonial-name">Lugbe, Abuja</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonials-card-info">
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2>Peace Aderibigbe</h2>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="./Images/user2.png" class="testimonial-img" />
+                      </div>
+                    </div>
+                    <div class="testimonial-text">
+                      <span><i class="fa-solid fa-quote-left"></i></span>
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen
+                        book.
+                      </p>
+                      <p class="testimonial-name">Asokoro, Abuja</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-xs-12">
+              <div class="news-letter">
+                <h1>Subscribe to our newsletter</h1>
+                <p>Be the first to hear about our latest menus.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <div class="box-search">
+                <div class="search_wrap search_wrap_1">
+                  <div class="search_box">
+                    <input
+                      type="email"
+                      class="input"
+                      placeholder="Enter your email address"
+                    />
+                    <div class="btn btn_common">
+                      <i class="fa-regular fa-paper-plane"></i>
+                      Subscribe
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
